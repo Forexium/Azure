@@ -1,4 +1,4 @@
-getgenv().script_key = getgenv()['script_key']
+getgenv().script_key = getgenv()['YhWfXxjdvihyFEscgzHokNkqdpjUjYQM']
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/deividcomsono/Obsidian/main/Library.lua"))()
 local api = loadstring(game:HttpGet("https://sdkapi-public.luarmor.net/library.lua"))()
