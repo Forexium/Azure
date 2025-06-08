@@ -10,18 +10,12 @@ local GamesTable = {
 }
 
 local GameId = game.GameId
-local Executor = identifyexecutor and identifyexecutor() or "Unknown"
+local Executor = identifyexecutor()
 local Link = GamesTable[GameId]
 local HorribleExploits = {"Solara", "Xeno"}
 
-if not Link then
-    LocalPlayer:Kick("Use Velocity or Swift")
-elseif not script_key then
+if not script_key then
     LocalPlayer:Kick("No identified Key")
-elseif GameId == 6061766680 and table.find(HorribleExploits, Executor) then
-    LocalPlayer:Kick("Use Velocity or Swift.")
-elseif Executor == "Fluxus" then
-    LocalPlayer:Kick("Use Velocity or Swift.")
 elseif game.PlaceId == 132756651286184 or game.PlaceId == 124842177627298 then
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/cb930180d28b181b0cf87d0efe29a784.lua"))()
 end
