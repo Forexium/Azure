@@ -1,4 +1,4 @@
-getgenv().script_key = getgenv()['script_key']
+getgenv().script_key = getgenv()['YhWfXxjdvihyFEscgzHokNkqdpjUjYQM']
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/notjohnnylol/Azusidian/refs/heads/main/UILoader"))()
 local api = loadstring(game:HttpGet("https://sdkapi-public.luarmor.net/library.lua"))()
